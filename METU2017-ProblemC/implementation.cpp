@@ -145,8 +145,8 @@ int main()
 			}
 		}
 		else {
-			long long lh = (long long)ltop->tot * rtop->size;
-			long long rh = (long long)rtop->tot * ltop->size;
+			long long lh = ltop->tot * rtop->size;
+			long long rh = rtop->tot * ltop->size;
 
 			if (lh > rh) {
 				total += day * ltop->tot + ltop->ext;
